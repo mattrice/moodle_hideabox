@@ -32,7 +32,7 @@ Installation instructions
 				e.g. cp hideabox.js moodle/theme/essential/jquery/
 		2)	edit jquery/plugins.php
 				e.g. Add the following line to $plugins = array (
-				'hideabox' => array('files' => array('hideaboxy.js'))
+				'hideabox' => array('files' => array('hideabox.js'))
 		3)	edit lib.php
 				e.g. Add the following line to function theme_essential_page_init
 				$page->requires->jquery_plugin('hideabox', 'theme_essential');
